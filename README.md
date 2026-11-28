@@ -4,8 +4,8 @@
 
 A website for going through the Lean proofs of the Riemann Hypothesis level by
 level, each page showing one theorem, the parts used only by it, their sizes,
-how they use each other, and their Lean code. The menu at the top left picks
-the proof:
+how they use each other, and their Lean code. It opens on the compact edition;
+the menu at the top left picks the proof:
 
 - the first proof,
   [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)
@@ -16,7 +16,7 @@ the proof:
   declarations).
 
 一个可以一层层浏览黎曼猜想 Lean 证明的网站：每一页显示一个定理、只为它服务的各部分、它们的
-大小、彼此的引用关系，以及 Lean 代码。左上角的菜单选择证明：最早的
+大小、彼此的引用关系，以及 Lean 代码。默认打开紧凑版，左上角的菜单选择证明：最早的
 leanprover-community/riemann-hypothesis（727,065 个声明），以及 lsernau/grh-lean 里的
 易读版 `grh/`（21,597 个）和紧凑版 `grh-compact/`（12,533 个）。
 
